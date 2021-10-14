@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="bgImg">
+    <div class="navbar navbar-expand-md bg-dark fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-light"></nav>
+        <a href="index.html" class="navbar-brand text-white font-weight-bold">
+          <img src="img/final.png" width="160" height="50" class="d-inline-block align-top" alt="">
+          <a href="index.html" class="logoname">One8</a>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-target="#collapsenavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" text-center id="collapsenavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="services.html" class="nav-link text-white">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link text-white">Products</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link text-white">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactus.html" class="nav-link text-white">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" data-toggle="modal" data-target="#modalLoginForm" class="nav-link text-white" >Login</a>
+          </li>
+          <li class="nav-item">
+              <a href="signup.html" class="nav-link text-white">Sign Up</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <h1> Login </h1>
+    <div class="modal fade" id="modalLoginForm" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Log in</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">x
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-3">
+              <label> Username</label>
+              <input type="textbox" id="username" placeholder="Enter your username" class="form-control">
+            </div>
+
+            <div class="md-form mb-3" >
+              <label>Your password</label>
+              <input type="password" id="defaultForm-pass" placeholder="Enter your password" class="form-control">
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+             <button class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+.bgImg
+{   
+    background-color: grey;
+}
+
+.carousel-item img{
+    height: 550px;
+    padding: 5px 5px
+}
+
+.carousel-caption
+{
+background-color: white;
+color: black;
+}
+
+.ourservices{
+    padding: 100px 0px 60px;
+}
+
+.ourservices h1{
+font-size: 50px;
+font-weight: bold;
+}
+
+
+.rowsetting
+{
+    padding: 80px 0px 50px;
+    
+}
+
+.logoname:hover
+{
+    color: white;
+}
+
+
+.logoname
+{
+    color: white;
+}
+
+.bgImg
+{   
+    background-color: grey;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.imgsetting
+{
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.cr7
+{
+    margin-top: 100px;
+}
+
+.crd
+{
+    margin-top: 25px;
+}
+
+
+  .header
+  { 
+    margin-top: 100px;
+    padding: 30px 0px 30px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .aa 
+  {
+    margin-top: 30px;
+    padding: 20px 0px 20px;
+  }
+  .bb 
+  {
+    margin-top: 30px;
+    padding: 20px 0px 20px;
+  }
+  .cc 
+  {
+    margin-top: 30px;
+    padding: 20px 0px 20px;
+  }
+  .dd 
+  {
+    margin-top: 30px;
+    padding: 20px 0px 20px;
+  }
+
+  .abd
+  {
+      margin-top: 26px;
+  }
+
+  .card
+  {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .crd
+  {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .crdd
+  {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color:whitesmoke;
+    padding: 25px;
+  }
+
+  .imground
+  {
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+  }
+
+  .cr
+  {
+    float:right;
+  }
+
+  .crda
+  {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    right: 50px;
+    position: absolute;
+    top: 260px;
+  }
+  .crdaa
+  {
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center; 
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+
+  .crdb
+  {
+    padding-bottom: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    bottom: 140px;
+    top: 30px;
+  }
+  .crdbb
+  {
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center; 
+    padding-bottom: 50px;
+    text-align: center;
+    bottom: 140px;
+  }
+
+  .crdc
+  {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    float: right; 
+    right: 50px;
+    top: 30px;
+  }
+  .crdcc
+  {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-align: right; 
+    padding-bottom: 30px;
+    position: absolute;
+    top: 140px;
+    right: 30px;
+  }
+
+  .footer
+  {
+      width: fit-content;
+      text-align: center;
+      position: relative;
+  }
